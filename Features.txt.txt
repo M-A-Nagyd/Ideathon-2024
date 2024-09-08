@@ -1,0 +1,33 @@
+
+### Features Implemented
+
+1. **Background Video**
+   - The application uses a fullscreen background video to enhance visual appeal across all pages.
+
+2. **User Input Form**
+   - **`index.html`**: Users can enter personal financial details including name, age, investment amount, investment period, and period unit. The form uses various input types such as text, number, and select to gather information.
+
+3. **Investment Prediction**
+   - **`index.html`**: Submits user input to the `/predict` endpoint to get investment recommendations based on the entered data.
+
+4. **Display Prediction Results**
+   - **`result.html`**: Shows detailed results of investment predictions including user input, predicted returns for different investment options, and the best investment recommendation.
+
+5. **View Graphs**
+   - **`view_graphs.html`**: Allows users to view available investment graphs. Each investment symbol has a button that links to a detailed graph.
+
+6. **Graph Visualization**
+   - **`show_graph.html`**: Displays a specific graph related to an investment symbol. The graph image is dynamically referenced based on the selected symbol.
+
+7. **Navigation and User Interface**
+   - **Buttons and Links**: Provides navigation options such as submitting the form, viewing prediction results, and accessing graphs. Includes user-friendly buttons for interactions.
+
+8. **Responsive Design**
+   - Uses CSS Flexbox for centering content and responsive layout adjustments. Ensures the interface is usable on various devices.
+
+9. **Styling and User Experience**
+   - **CSS Styling**: Consistent styling with colors, borders, shadows, and transitions to enhance user experience and visual appeal.
+
+10. **Real-time Alerts and Notifications**
+    - The application is designed to potentially handle real-time updates and alerts, though specific implementation details for these features are not provided in the HTML files.
+
